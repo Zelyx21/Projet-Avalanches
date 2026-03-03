@@ -25,3 +25,9 @@ et quelles stations de ski en sont les plus proches.
 
 ## Équipe
 Donia Alfonsi - Clémentine Beaulieu - Gabriel Colpari - Catherine Nivault
+
+## Reproduire l'analyse
+1. Importer `sql/avalanchaine.sql` dans phpMyAdmin (MySQL local)
+2. Ouvrir `rapport/rapport-Avalanchaine.Rmd` dans RStudio
+3. Adapter les paramètres de connexion dans le chunk `setup`
+4. Knit en PDF
